@@ -1,9 +1,12 @@
 // Code your solutions in this file
 
-// we create an array with a const tag
+// we create an array with a const variable global.  I want to have the array persist across all the functions and not change.  If I wanted it to change I would have used let.  
 const badges = ['Ada', 'Brendan', 'Ali'];
 
+
+// we create a function called printBadges with our badges variable passed in.  
 function printBadges (badges) {
+// create a for loop within the function.  Here we have a variable (let) equal to 0
   for (let i = 0; i < badges.length; i++) {
     console.log('Welcome #${badges[i]}, You are employee #${i + 1).');
   }
