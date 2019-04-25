@@ -1,5 +1,6 @@
 // Code your solutions in this file
 
+// we create an array with a const tag
 const badges = ['Ada', 'Brendan', 'Ali'];
 
 function printBadges (badges) {
